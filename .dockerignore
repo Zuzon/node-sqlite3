@@ -1,3 +1,9 @@
+#.dockerignore
+*~
+Dockerfile
+.git/
+
+#.gitignore
 *.dylib
 *.so
 *.o
@@ -25,4 +31,3 @@ local.env
 .mason
 .eslintrc.js
 setup.sh
-/build-tmp-napi-v3
